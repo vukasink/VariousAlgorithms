@@ -1,0 +1,21 @@
+The Hungarian Method: The following algorithm applies the above
+theorem to a given n × n cost matrix to find an optimal assignment.
+
+Step 1. Subtract the smallest entry in each row from all the entries of its
+row.
+
+Step 2. Subtract the smallest entry in each column from all the entries
+of its column.
+
+Step 3. Draw lines through appropriate rows and columns so that all the
+zero entries of the cost matrix are covered and the minimum number of
+such lines is used.
+
+Step 4. Test for Optimality: (i) If the minimum number of covering lines
+is n, an optimal assignment of zeros is possible and we are finished. (ii) If
+the minimum number of covering lines is less than n, an optimal
+assignment of zeros is not yet possible. In that case, proceed to Step 5.
+
+Step 5. Determine the smallest entry not covered by any line. Subtract
+this entry from each uncovered row, and then add it to each covered
+column. Return to Step 3.
