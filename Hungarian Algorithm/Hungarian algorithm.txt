@@ -1,3 +1,5 @@
+The Hungarian algorithm is used for solving the assignment problem!
+
 The Hungarian Method: The following algorithm applies the above
 theorem to a given n × n cost matrix to find an optimal assignment.
 
@@ -16,6 +18,8 @@ is n, an optimal assignment of zeros is possible and we are finished. (ii) If
 the minimum number of covering lines is less than n, an optimal
 assignment of zeros is not yet possible. In that case, proceed to Step 5.
 
-Step 5. Determine the smallest entry not covered by any line. Subtract
-this entry from each uncovered row, and then add it to each covered
-column. Return to Step 3.
+Step 5. Determine the smallest entry not covered by any line. Subtract this
+entry from every unmarked element and add it to every element covered by two lines.
+
+For more information: https://en.wikipedia.org/wiki/Hungarian_algorithm
+
