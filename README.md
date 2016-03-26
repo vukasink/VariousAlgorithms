@@ -3,4 +3,4 @@ Various algorithms
 
 This repository consists of Java implementations of various algorithms.
 
-Every algorithm has a folder named by it, and all files are inside that folder.
+If you have any questions, feel free to contact me at vukasin.karadzic@gmail.com
