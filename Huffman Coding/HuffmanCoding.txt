@@ -1,0 +1,9 @@
+Huffman code is a type of optimal prefix code.
+For more information: https://en.wikipedia.org/wiki/Huffman_coding
+
+Constructor of this class takes a name of file as an argument. In the file, each line must be of format: 
+letter frequencyOfTheLetter
+(See an example file 'huffman1.txt')
+Of course, sum of all letter frequencies must be one.
+
+The algorithm then maps the letters to the {0,1} codewords.
