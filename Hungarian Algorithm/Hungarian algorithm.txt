@@ -21,5 +21,7 @@ assignment of zeros is not yet possible. In that case, proceed to Step 5.
 Step 5. Determine the smallest entry not covered by any line. Subtract this
 entry from every unmarked element and add it to every element covered by two lines.
 
-For more information: https://en.wikipedia.org/wiki/Hungarian_algorithm
+
+For more information:   http://www.math.harvard.edu/archive/20_spring_05/handouts/assignment_overheads.pdf
+						https://en.wikipedia.org/wiki/Hungarian_algorithm
 
