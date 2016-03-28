@@ -1,5 +1,3 @@
-package basketballtournament;
-
 import java.util.Arrays;
 
 /**
