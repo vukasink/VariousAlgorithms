@@ -42,6 +42,7 @@ public class HuffmanCode {
         }
         
     }
+    
    /**
     * Constructor
     * @param inputFile name of the file, in which each line is made of a
