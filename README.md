@@ -1,5 +1,4 @@
 # VariousAlgorithms
-Various algorithms
 
 This repository consists of Java implementations of various algorithms.
 
