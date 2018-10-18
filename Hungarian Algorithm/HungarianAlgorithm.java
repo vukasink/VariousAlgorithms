@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 /**
- * 
  * @author Vukasin Karadzic, vukasin.karadzic@gmail.com
  */
 public class HungarianAlgorithm {
@@ -14,7 +13,6 @@ public class HungarianAlgorithm {
     private int[] assignment;
 
     /**
-     * 
      * @return array of integers, int[i] = j represents that the i-th  job is
      * assigned to j-th worker.
      */

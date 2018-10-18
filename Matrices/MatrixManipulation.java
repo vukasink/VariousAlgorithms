@@ -7,8 +7,6 @@ import java.util.Random;
  */
 public class MatrixManipulation {
     
-    
-    
     /**
      * Method for printing the matrix.
      * @param a matrix to be printed.
@@ -120,5 +118,4 @@ public class MatrixManipulation {
         }
         return matrix;
     }    
-    
 }

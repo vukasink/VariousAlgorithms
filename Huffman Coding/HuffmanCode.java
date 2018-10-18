@@ -6,7 +6,6 @@ import java.util.Comparator;
 import java.util.Iterator;
 
 /**
- * 
  * @author Vukasin Karadzic, vukasin.karadzic@gmail.com
  */
 public class HuffmanCode {
@@ -125,9 +124,6 @@ public class HuffmanCode {
     
 }
 
-/**
- * @author Vukasin Karadzic, vukasin.karadzic@gmail.com
- */
 class ComparatorByProbability implements Comparator<HuffmanCode.LetterNode>{
 
     @Override
